@@ -4,5 +4,5 @@ onload = () => {
 
 function mostrarCarta() {
   const carta = document.getElementById("carta");
-  carta.style.display = carta.style.display === "none" ? "block" : "none";
+  carta.classList.toggle("carta-visible");
 }
